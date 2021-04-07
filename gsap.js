@@ -10,6 +10,15 @@ gsap.to(".box", {
 
     ]
 });
+gsap.to(".object", {
+    keyframes: [
+        { duration: 1, x: 400, y: 600, border: "3px inset silver", color: "teal" },
+        { duration: 1, backgroundColor: "#f38630", color: "red", delay: 0.5 },
+        { duration: 1, x: 400, y: 100, backgroundColor: "#f38630", color: "green", delay: 0.9 }
+
+
+    ]
+});
 
 
 
