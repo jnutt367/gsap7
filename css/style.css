@@ -1,0 +1,19 @@
+body {
+    margin: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/jason-folded-smiling.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
