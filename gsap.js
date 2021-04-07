@@ -10,15 +10,29 @@ gsap.to(".box", {
 
     ]
 });
+
 gsap.to(".object", {
     keyframes: [
         { duration: 1, x: 400, y: 600, border: "3px inset silver", color: "teal" },
         { duration: 1, backgroundColor: "#f38630", color: "red", delay: 0.5 },
-        { duration: 1, x: 400, y: 100, backgroundColor: "#f38630", color: "green", delay: 0.9 }
+        { duration: 1, x: 400, y: 100, borderRadius: "50%", backgroundColor: "#f38630", color: "green", delay: 0.9 },
+        { duration: 4, x: 300, y: 100, display: "grid", alignItems: "center", justifyContent: "center", backgroundColor: "#f38630", height: 150, width: 150, color: "green", delay: 0.7 }
+
+    ]
+});
+
+gsap.to(".object2", {
+    keyframes: [
+        { duration: 1, x: 200, y: 300, border: "3px inset silver", color: "teal" },
+        { duration: 1, backgroundColor: "#f38630", color: "red", delay: 0.5 },
+        { duration: 1, x: 200, y: 200, borderRadius: "50%", textAlign: "center", backgroundColor: "#f38630", color: "green", delay: 0.9 },
+        { duration: 3, x: 100, y: 100, display: "grid", alignItems: "center", justifyContent: "center", backgroundColor: "red", height: 200, width: 200, color: "blue", delay: 0.9 }
 
 
     ]
 });
+
+
 
 
 
